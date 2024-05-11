@@ -1,4 +1,4 @@
-package com.algaworks.algafoodapi;
+package com.algaworks.algafoodapi.controller;
 
 
 import org.springframework.stereotype.Controller;
