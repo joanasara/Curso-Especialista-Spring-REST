@@ -10,14 +10,13 @@ import java.util.List;
 @Component
 public class AtivacaoClienteService {
 
-    @Autowired(required = false) //Essa implementacao e uma boa sugestao quando temos mais de dois Beans para ser injetado
-    private List<Notificador> notificadores;
+    @Autowired
+    private Notificador notificadores;
 
     public void ativar(Cliente cliente) {
         cliente.ativar();
-        for (Notificador notificador : notificadores) {
-            notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
-        }
+        notificadores.notificar(cliente, "Seu cadastro no sistema está ativo!");
+
     }
 
 }
