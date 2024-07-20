@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Qualifier("sms")
+@TipoNotificador(NivelUrgencia.URGENTE)
 @Component
 public class NotificadorSms implements Notificador {
 
