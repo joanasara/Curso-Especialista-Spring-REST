@@ -1,4 +1,4 @@
-package com.algaworks.algafoodapi.notificacao;
+package com.algaworks.algafoodapi.injecaodepedencia.notificacao;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 

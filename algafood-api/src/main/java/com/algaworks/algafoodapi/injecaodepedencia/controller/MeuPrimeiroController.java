@@ -1,8 +1,8 @@
-package com.algaworks.algafoodapi.controller;
+package com.algaworks.algafoodapi.injecaodepedencia.controller;
 
 
-import com.algaworks.algafoodapi.model.Cliente;
-import com.algaworks.algafoodapi.service.AtivacaoClienteService;
+import com.algaworks.algafoodapi.injecaodepedencia.model.Cliente;
+import com.algaworks.algafoodapi.injecaodepedencia.service.AtivacaoClienteService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

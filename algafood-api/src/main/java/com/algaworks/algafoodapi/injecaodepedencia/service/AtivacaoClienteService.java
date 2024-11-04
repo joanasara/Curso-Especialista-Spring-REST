@@ -1,6 +1,6 @@
-package com.algaworks.algafoodapi.service;
+package com.algaworks.algafoodapi.injecaodepedencia.service;
 
-import com.algaworks.algafoodapi.model.Cliente;
+import com.algaworks.algafoodapi.injecaodepedencia.model.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;

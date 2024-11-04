@@ -1,6 +1,6 @@
-package com.algaworks.algafoodapi.notificacao;
+package com.algaworks.algafoodapi.injecaodepedencia.notificacao;
 
-import com.algaworks.algafoodapi.model.Cliente;
+import com.algaworks.algafoodapi.injecaodepedencia.model.Cliente;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 

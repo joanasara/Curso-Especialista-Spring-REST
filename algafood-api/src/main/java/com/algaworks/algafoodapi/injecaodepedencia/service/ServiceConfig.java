@@ -1,4 +1,4 @@
-package com.algaworks.algafoodapi.service;
+package com.algaworks.algafoodapi.injecaodepedencia.service;
 
 import org.springframework.context.annotation.Configuration;
 

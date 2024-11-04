@@ -1,6 +1,6 @@
-package com.algaworks.algafoodapi.service;
+package com.algaworks.algafoodapi.injecaodepedencia.service;
 
-import com.algaworks.algafoodapi.model.Cliente;
+import com.algaworks.algafoodapi.injecaodepedencia.model.Cliente;
 import lombok.Getter;
 
 @Getter

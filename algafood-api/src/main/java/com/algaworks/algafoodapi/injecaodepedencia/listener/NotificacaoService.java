@@ -1,10 +1,9 @@
-package com.algaworks.algafoodapi.listener;
+package com.algaworks.algafoodapi.injecaodepedencia.listener;
 
-import com.algaworks.algafoodapi.notificacao.NivelUrgencia;
-import com.algaworks.algafoodapi.notificacao.Notificador;
-import com.algaworks.algafoodapi.notificacao.TipoNotificador;
-import com.algaworks.algafoodapi.service.ClienteAtivadoEvent;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.algaworks.algafoodapi.injecaodepedencia.notificacao.NivelUrgencia;
+import com.algaworks.algafoodapi.injecaodepedencia.notificacao.Notificador;
+import com.algaworks.algafoodapi.injecaodepedencia.notificacao.TipoNotificador;
+import com.algaworks.algafoodapi.injecaodepedencia.service.ClienteAtivadoEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class NotificacaoService {
 
     @TipoNotificador(NivelUrgencia.SEM_URGENCIA)
-    @Autowired
+    //@Autowired
     private Notificador notificador;
 
     @EventListener

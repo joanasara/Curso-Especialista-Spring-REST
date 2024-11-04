@@ -1,4 +1,4 @@
-package com.algaworks.algafoodapi.model;
+package com.algaworks.algafoodapi.injecaodepedencia.model;
 
 public class Cliente {
     private String nome;
