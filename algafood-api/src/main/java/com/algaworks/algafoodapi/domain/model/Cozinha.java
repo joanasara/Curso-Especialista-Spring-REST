@@ -19,7 +19,7 @@ public class Cozinha {
     @Id
     private Long id;
 
-    @Column(name = "nom_cozinha")
+    @Column(name = "nom_cozinha", length = 30)
     private String nome;
 
     @Override
